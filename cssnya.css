@@ -1,0 +1,109 @@
+*{margin: 0; padding: 0;}
+
+		nav{
+			line-height: 40px;
+			position: absolute;
+			top: 25px;
+			left: 300px;
+			width: 58%;
+			margin: center;
+			border-bottom: solid 5px white;
+			font-family:mimich;
+			color: white;
+			font-size: 14px;
+		}
+		nav ul{
+			list-style: none;
+		}
+		nav ul li a{
+			float: left;
+			width: 150px;
+			color: white;
+			text-decoration: none;
+			display: block;
+			text-align: center;
+			background: pink;
+			margin-right: 5px;
+			
+		}
+		nav ul li a:hover{
+			background-color:;
+			display: block;
+		}
+		nav ul li:hover .sub1{display: block;}
+		nav ul .sub1{
+			display: none;
+			position: absolute;
+			left: 155px;
+			top: 35px;
+			background-color:;
+		}
+		.sub1 a:hover{color: black;}
+
+		nav ul li:hover .sub2{display: block;}
+		nav ul .sub2{
+			display: none;
+			position: absolute;
+			left: 0px;
+			top: 35px;
+			background:;
+		}
+		.sub2 a:hover{color:black;}
+
+		.sub3 a:hover{color:black;}
+
+		nav ul li:hover .sub3{display: block;}
+		nav ul .sub3{
+			display: none;
+			position: absolute;
+			left: 310px;
+			top: 35px;
+			background:;
+		}
+		.sub3 a:hover{color:yellow;}
+
+		@media screen and (max-width: 780px) {
+	
+		nav{
+			line-height: 40px;
+			position: absolute;
+			top: 10px;
+			left: 20px;
+			width: 88%;
+			margin: center;
+			border-bottom: solid 3px white;
+			font-family:mimich;
+			color: white;
+			font-size: 14px;
+	    }
+	    nav ul li a{
+			float: right;
+			width: 100px;
+			color: white;
+			text-decoration: none;
+			display: block;
+			text-align: center;
+			background: pink;
+			padding: 0px;
+			margin-right: 5px;
+			
+		}
+		nav ul li:hover .sub1{display: block;}
+		nav ul .sub1{
+			display: none;
+			position: absolute;
+			left: 72px;
+			top: 35px;
+			background-color:;
+		}
+		.sub1 a:hover{color: black;}
+
+		nav ul li:hover .sub2{display: block;}
+		nav ul .sub2{
+			display: none;
+			position: absolute;
+			left: 177px;
+			top: 35px;
+			background:;
+		}
+		.sub2 a:hover{color:black;}
